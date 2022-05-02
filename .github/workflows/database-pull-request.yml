@@ -4,7 +4,4 @@ on: [pull_request]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: lynxnetworkbrasil/liquibase/.github/workflow/database-pull-request.yml@main
+    uses: lynxnetworkbrasil/liquibase/.github/workflows/database-pull-request.yml@main
