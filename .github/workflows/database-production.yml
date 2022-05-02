@@ -1,0 +1,15 @@
+name: Database script
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - stage
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: lynxnetworkbrasil/liquibase/.github/workflow/database-prodution.yml@main
