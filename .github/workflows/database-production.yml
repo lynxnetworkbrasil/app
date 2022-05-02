@@ -10,7 +10,4 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: lynxnetworkbrasil/liquibase/.github/workflows/database-production.yml@main
+    uses: lynxnetworkbrasil/liquibase/.github/workflows/database-production.yml@main
