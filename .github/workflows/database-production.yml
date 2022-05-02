@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: lynxnetworkbrasil/liquibase/.github/workflow/database-prodution.yml@main
+      - uses: lynxnetworkbrasil/liquibase/.github/workflow/database-production.yml@main
