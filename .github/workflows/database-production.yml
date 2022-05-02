@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'database-script/**'
+      - 'database-scripts/**'
   workflow_dispatch:
 
 jobs:
