@@ -1,4 +1,4 @@
-name: Database script
+name: Database script - Pull Request
 
 on: [pull_request]
 
