@@ -1,4 +1,4 @@
-name: Database script
+name: Database script - Production
 
 on:
   push:
