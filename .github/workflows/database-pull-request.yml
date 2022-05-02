@@ -3,7 +3,7 @@ name: Database script - Pull Request
 on:
   pull_request:
     paths:
-      - 'database-script/**'
+      - 'database-scripts/**'
 
 jobs:
   build:
